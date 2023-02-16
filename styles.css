@@ -12,7 +12,7 @@ h1, p{
     
 }
 input, textarea, select {
-  margin: 10px 0 0 0;
+  margin: 15px 0 0 0;
   width: 100%;
   min-height: 2em;
 }
@@ -26,8 +26,11 @@ label{
   margin: 0 0.5em 0 0;
 }
 fieldset{
-  border: none;
+  border: solid;
   padding: 2rem;
+  border-width: 10px;
+  border-radius: 20px;
+  margin-bottom: 30px;
 }
 form{
   width: 100%;
@@ -38,3 +41,14 @@ form{
   justify-content: center;
   align-items: center;
 }
+.form-group{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#sugerencia{
+  margin-top: 30px;
+}
+#submit{
+  width: auto;
+}
+
