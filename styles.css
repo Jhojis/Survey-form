@@ -5,7 +5,7 @@ body{
     background-color: #1b1b32;
     color: #f5f6f7;
     font-family: Tahoma;
-    font-size: 16px;
+    font-size: 20px;
 }
 h1, p{
     text-align: center;
@@ -15,4 +15,26 @@ input, textarea, select {
   margin: 10px 0 0 0;
   width: 100%;
   min-height: 2em;
+}
+label{
+  display: block;
+  margin: 0.5rem 0;
+}
+.input-radio{
+  vertical-align: middle;
+  width: auto;
+  margin: 0 0.5em 0 0;
+}
+fieldset{
+  border: none;
+  padding: 2rem;
+}
+form{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
