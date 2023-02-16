@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <h1 id="title">Formulario de registro</h1>
     <p id="description">
-      Thank you for taking the time to help us improve the platform
+      Página simple de HTML realizada por: Jhojis 
     </p>
     <form id="survey-form">
       <fieldset>
         <label for="name" id="name-label"
-          >Name
+          >Nombre
           <input id="name" type="text" required placeholder="Enter your name" />
         </label>
         <label for="email" id="email-label"
@@ -28,7 +28,7 @@
           />
         </label>
         <label for="age" id="number-label"
-          >Age (optional)
+          >Edad (opcional)
           <input
             id="number"
             type="number"
@@ -38,18 +38,17 @@
           />
         </label>
         <label for="role"
-          >Which option best describes your current role?
+          >¿Qué opción describe tu rol en estos momentos?
           <select id="dropdown">
             <option value="">Select current role</option>
-            <option value="Student">Student</option>
-            <option value="full-time-jop">Full Time Job</option>
-            <option value="full-time-learner">Full Time Learner</option>
-            <option value="not-say">Prefer not to say</option>
-            <option value="other">Other</option>
+            <option value="Student">Estudiante</option>
+            <option value="full-time-jop">Trabajo</option>
+            <option value="not-say">Prefiero no decirlo</option>
+            <option value="other">Otro</option>
           </select>
         </label>
         <div class="form-group">
-          <p>Would you recommend freeCodeCamp to a friend?</p>
+          <p>¿Contratarías a Jhojis?</p>
           <label>
             <input
               name="user-recommend"
@@ -57,7 +56,7 @@
               type="radio"
               class="input-radio"
               checked
-            />Definitely</label
+            />  Definitivamente</label
           >
           <label>
             <input
@@ -65,7 +64,7 @@
               value="maybe"
               type="radio"
               class="input-radio"
-            />Maybe</label
+            /> Tal vez  </label
           >
 
           <label
@@ -74,7 +73,7 @@
               value="not-sure"
               type="radio"
               class="input-radio"
-            />Not sure</label
+            /> Seguro que no</label
           >
         </div>
         <label for="role"
@@ -88,20 +87,28 @@
           </select>
         </label>
         <label for="improved"
-          >What would you like to see improved? (Check all that apply)
+          >¿En cual o cuales cargos crees que podría trabajar Jhojis?
         </label>
         <label>
-          <input type="checkbox" value="1" />
-          Front-end Projects
+          <input type="checkbox" value="1" class="input-radio" />
+          Front-end projects
         </label>
         <label>
-          <input type="checkbox" value="2" />
-          Back-end Projects
+          <input type="checkbox" value="2" class="input-radio" />
+          Back-end projects
         </label>
-        <label> <input type="checkbox" value="3" />Data Visualization </label>
+        <input type="checkbox" value="2" class="input-radio" />
+          Full-stack projects
+        </label>
+        <label> <input type="checkbox" value="3" class="input-radio" /> 
+          Data visualization </label>
+          <label> <input type="checkbox" value="3" class="input-radio" /> 
+            Ethical hacking </label>
+            <label> <input type="checkbox" value="3" class="input-radio" /> 
+              Python developer </label>
         <label for="suggestions"
-          >Any comments or suggestions?
-          <textarea placeholder="Enter your comment here"> </textarea>
+          >¿Alguna sugerencia?
+          <textarea placeholder="Enter your comment here"></textarea>
         </label>
         <label>
           <input id="submit" type="submit" />
